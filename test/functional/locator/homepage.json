@@ -1,0 +1,60 @@
+{
+    "flightsLink":{
+        "type":"css",
+        "locator":"li[data-channel-name=flights]"
+    },
+    "textFieldFrom":{
+        "type":"css",
+        "locator":"#msf-sin-depart-city-input"
+    },
+    "textFieldTo":{
+        "type":"css",
+        "locator":"#msf-sin-arrival-city-input"
+    },
+    "jkAirportLink":{
+        "type":"css",
+        "locator":"div.pop-search-box>div>ul>li:nth-child(2)>a:nth-child(2)"
+    },
+    "bjAirportLink":{
+        "type":"css",
+        "locator":"div.pop-search-box>div>ul>li:nth-child(5)>a:nth-child(1)"
+    },
+    "textFieldDepartDate":{
+        "type":"css",
+        "locator":"#msf-sin-depart-date-input"
+    },
+    "textFieldArrDate":{
+        "type":"css",
+        "locator":"#msf-sin-arrival-date-input"
+    },
+    "nextMonth":{
+        "type":"css",
+        "locator":"#next-month"
+    },
+    "prevMonth":{
+        "type":"css",
+        "locator":"#prev-month"
+    },
+    "currentMonth":{
+        "type":"css",
+        "locator":".month-hd>div.month-label.month-label-1st>span.month"
+    },
+    "currentYear":{
+        "type":"css",
+        "locator":".month-hd>div.month-label.month-label-1st>span.year"
+    },
+    "departDate":{
+        "type":"css",
+        "locator":"div[data-id='2018-02-28']"
+    },
+    "returnDate":{
+        "type":"css",
+        "locator":"div[data-id='2018-03-31']"
+    },
+    "btnSearchFlights":{
+        "type":"css",
+        "locator":".mod-main-search-flight.m-ms-flight.fn-search-box div.search-btn >button"
+    }
+
+
+}

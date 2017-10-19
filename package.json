@@ -1,0 +1,33 @@
+{
+  "name": "ctrip",
+  "version": "0.1.0",
+  "description": "Test Automation for english.ctrip.com website",
+  "author": "Onkoba Samson",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "all": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "kraken-js": "^2.0.0",
+    "construx": "^1.0.0",
+    "construx-copier": "^1.0.0",
+    "express": "^4.12.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-loop-mocha": "^1.2.2",
+    "mocha": "^1.18.0",
+    "nconf": "^0.8.5",
+    "nemo": "^2.4.1",
+    "nemo-jaws": "^1.1.0",
+    "nemo-logger": "^1.0.3",
+    "nemo-screenshot": "^2.2.4",
+    "nemo-view": "^2.2.3",
+    "nemo-window": "^1.0.3",
+    "supertest": "^0.9.0",
+    "xunit-file": "^1.0.0"
+  }
+}
